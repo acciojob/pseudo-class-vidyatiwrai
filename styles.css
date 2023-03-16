@@ -1,18 +1,9 @@
-/*  your css code here. If applicable */
-#container{
-	display:flex;
-	font-size:17px;
-}
-.beforeelement{
-	color:rgb(255,0,0);
-	font-size:20px;
-	pedding-right:4px;
-}
-.afterelement{
-	color:rgb(255,0,0);
-	font-size:20px;
-	pedding-left:4px;
-	
-	
+div::before {
+content: "Before Element";
+color:red;
 }
 
+div::after {
+content: "After Element";
+color:red;
+}
